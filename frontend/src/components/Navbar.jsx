@@ -4,9 +4,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  return (
+  return ( 
     <nav>
-      <div className="logo">KING's</div>
+      <div className="logo">MK-EVENTS</div>
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className="links">
           <Link to="hero" spy={true} smooth={true} duration={500}>

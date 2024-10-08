@@ -6,7 +6,7 @@ import cors from "cors";
 
 const app = express();
 
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path:"./config/config.js" });
 
 app.use(
   cors({
