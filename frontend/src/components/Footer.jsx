@@ -9,13 +9,16 @@ const Footer = () => {
           <p>Events and Weddings</p>
         </div>
         <div className="tag">
-          <label>News Letter</label>
+          {/* <label>News Letter</label>
           <div>
             <input type="text" placeholder="E-mail" />
             <button>Subscribe</button>
-          </div>
-          <p>Sign up with your email address to receice news and updates!</p>
-        </div>
+          </div> */}
+       
+          <p ><strong>Follow us on Instagram  to stay connected !</strong></p>
+          <a href="https://www.instagram.com/_guy.with.dreams_" className="link" >Mk-Events</a>
+          
+         </div>
       </div>
     </footer>
   );

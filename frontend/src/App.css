@@ -429,3 +429,12 @@ footer .banner .tag div button {
     grid-gap: 20px;
   }
 }
+.link {
+  text-align: center;
+  color: orange;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: wheat;
+}
