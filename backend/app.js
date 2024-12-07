@@ -4,11 +4,11 @@ import dotenv from "dotenv";
 import messageRouter from "./router/messageRouter.js";
 import cors from "cors";
 import nodemailer from 'nodemailer';
-import bodyParser from 'body-parser';
+
 
 const app = express();
 
-dotenv.config({ path:"./config/config.js" });
+dotenv.config();
 
 app.use(
   cors({
